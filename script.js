@@ -51,6 +51,7 @@ botao.addEventListener('click', function () {
   }
 
 localStorage.setItem('colorPalette', JSON.stringify(arrayDeCores))
+
 })
 
 // Implementando o quinto requisito 2a parte
@@ -74,7 +75,23 @@ else{
     paleta4 = document.getElementsByClassName('color')[3];
     paleta4.style.backgroundColor = 'green';
 }
+// continuação da solução da 12a questão
+let paletaSalva = JSON.parse(localStorage.getItem('pixelBoard')) || [];
+let miniPixels = quadro.children;
+
+// lá vai a loucura. Organizar!!! complexidade que pode não ser compreendida depois
+if (paletaSalva !== []){
+  for(let index = 0; index < paletaSalva.length; index += 1){
+        let chave = paletaSalva[index]
+        console.log(chave)
+      for(let index2 in chave){
+        console.log(index2)
+        miniPixels[index2].style.backgroundColor = chave[index2]
+      }
+      }
+    }
 }
+
 // Implementando solução do décimo primeiro requisito
 
 const botao2 = document.createElement('button');
@@ -93,10 +110,11 @@ botao2.addEventListener('click', function(){
 
 let quadro = document.createElement('div');
 quadro.id = 'pixel-board';
-quadro.style.width = '240px';
-quadro.style.height = '255px';
+quadro.style.width = '210px';
+quadro.style.height = '210px';
 quadro.style.margin = '50px';
 corpo.appendChild(quadro);
+
 
 function criaPixels() {
   for(let index = 0; index < 25; index += 1){
@@ -106,7 +124,8 @@ function criaPixels() {
     miniPixels.style.display = 'inline-block';
     miniPixels.style.width = '40px';
     miniPixels.style.height = '40px',
-    miniPixels.style.border = '1px solid black'
+    miniPixels.style.border = '1px solid black';
+    miniPixels.id = index
     quadro.appendChild(miniPixels)
   }
 }
@@ -122,11 +141,17 @@ paleta.addEventListener('click', function (evento) {
   paletaSelecionada.className += ' selected'
 })
 
-// Implementado solução do décimo requisito
-
+// Implementado solução do décimo requisito e do décimo primeiro requisito parte de salvar dados no local storage
+let positionColor = [];
 quadro.addEventListener('click', function (evento) {
-  let pequenoPixel = evento.target;
   let corSelecionada = document.querySelector('.selected').style.backgroundColor;
+  let pequenoPixel = evento.target;
+  let objetoDeCores = {
+ 
+  }
+  objetoDeCores[pequenoPixel.id] = corSelecionada; // forma encontrada para adicionar o número como chave. Jogar direto no objeto não funciona
+  positionColor.push(objetoDeCores);
   pequenoPixel.style.backgroundColor = corSelecionada
+  localStorage.setItem('pixelBoard', JSON.stringify(positionColor))
 })
 
