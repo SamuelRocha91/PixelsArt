@@ -98,3 +98,14 @@ function criaPixels() {
   }
 }
 criaPixels()
+
+// Implementando solução do oitavo requisito
+paletaBlack.className += ' selected';
+
+paleta.addEventListener('click', function (evento) {
+  let paletaSelecionada = evento.target;
+  let selected = document.querySelector('.selected');
+  selected.classList.remove('selected');
+  paletaSelecionada.className += ' selected'
+})
+
