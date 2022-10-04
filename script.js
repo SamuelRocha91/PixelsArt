@@ -76,11 +76,13 @@ else{
 }
 }
 
-// Implementando resolução do 6o requisito
+// Implementando resolução do 6o e 7o requisito
+
 let quadro = document.createElement('div');
 quadro.id = 'pixel-board';
-quadro.width = '5px';
-quadro.height = '5px';
+quadro.style.width = '240px';
+quadro.style.height = '255px';
+quadro.style.margin = '50px';
 corpo.appendChild(quadro);
 
 function criaPixels() {
@@ -88,8 +90,10 @@ function criaPixels() {
     let miniPixels = document.createElement('div');
     miniPixels.className = 'pixel'
     miniPixels.style.backgroundColor = 'white';
-    miniPixels.style.width = '1px';
-    miniPixels.style.height = '1px',
+    miniPixels.style.display = 'inline-block';
+    miniPixels.style.width = '40px';
+    miniPixels.style.height = '40px',
+    miniPixels.style.border = '1px solid black'
     quadro.appendChild(miniPixels)
   }
 }
