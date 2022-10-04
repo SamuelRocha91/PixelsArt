@@ -38,7 +38,7 @@ paleta4.style.backgroundColor = 'green';
 const botao = document.createElement('button');
 botao.id = 'button-random-color';
 botao.innerText = 'Cores aleatórias';
-corpo.appendChild(botao);
+paleta.appendChild(botao);
 
 botao.addEventListener('click', function () {
   let arrayDeCores = [];
@@ -75,6 +75,19 @@ else{
     paleta4.style.backgroundColor = 'green';
 }
 }
+// Implementando solução do décimo primeiro requisito
+
+const botao2 = document.createElement('button');
+botao2.id = 'clear-board';
+botao2.innerText = 'Limpar';
+corpo.appendChild(botao2);
+
+botao2.addEventListener('click', function(){
+  let miniPixels = quadro.children;
+  for( let index = 0; index < miniPixels.length; index += 1){
+    miniPixels[index].style.backgroundColor = 'white';
+  }
+})
 
 // Implementando resolução do 6o e 7o requisito
 
@@ -116,3 +129,4 @@ quadro.addEventListener('click', function (evento) {
   let corSelecionada = document.querySelector('.selected').style.backgroundColor;
   pequenoPixel.style.backgroundColor = corSelecionada
 })
+
