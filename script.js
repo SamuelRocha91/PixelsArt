@@ -75,3 +75,22 @@ else{
     paleta4.style.backgroundColor = 'green';
 }
 }
+
+// Implementando resolução do 6o requisito
+let quadro = document.createElement('div');
+quadro.id = 'pixel-board';
+quadro.width = '5px';
+quadro.height = '5px';
+corpo.appendChild(quadro);
+
+function criaPixels() {
+  for(let index = 0; index < 25; index += 1){
+    let miniPixels = document.createElement('div');
+    miniPixels.className = 'pixel'
+    miniPixels.style.backgroundColor = 'white';
+    miniPixels.style.width = '1px';
+    miniPixels.style.height = '1px',
+    quadro.appendChild(miniPixels)
+  }
+}
+criaPixels()
