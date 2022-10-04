@@ -99,7 +99,7 @@ function criaPixels() {
 }
 criaPixels()
 
-// Implementando solução do oitavo requisito
+// Implementando solução do oitavo e nono requisitos
 paletaBlack.className += ' selected';
 
 paleta.addEventListener('click', function (evento) {
@@ -109,3 +109,10 @@ paleta.addEventListener('click', function (evento) {
   paletaSelecionada.className += ' selected'
 })
 
+// Implementado solução do décimo requisito
+
+quadro.addEventListener('click', function (evento) {
+  let pequenoPixel = evento.target;
+  let corSelecionada = document.querySelector('.selected').style.backgroundColor;
+  pequenoPixel.style.backgroundColor = corSelecionada
+})
