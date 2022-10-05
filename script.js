@@ -152,7 +152,6 @@ section.appendChild(botaoInput)
 
 botaoInput.addEventListener('click', function() {
 resolucao = input.value
-console.log(resolucao)
 if(resolucao === ""){
   window.alert('Board Inválido!')
   localStorage.clear();
@@ -166,15 +165,38 @@ if(resolucao === ""){
   corpo.appendChild(quadro);
   criaPixels(5)
 }else{
-  reset()
-  quadro = document.createElement('div');
-  quadro.id = 'pixel-board';
-  quadro.style.width = `${resolucao * 42}px`;
-  quadro.style.height = `${resolucao * 42} px`;
-  quadro.style.margin = '50px';
-  corpo.appendChild(quadro);
-  criaPixels(resolucao);
-}
+  if(resolucao < 5){
+    resolucao = 5;
+    reset()
+    quadro = document.createElement('div');
+    quadro.id = 'pixel-board';
+    quadro.style.width = `${resolucao * 42}px`;
+    quadro.style.height = `${resolucao * 42} px`;
+    quadro.style.margin = '50px';
+    corpo.appendChild(quadro);
+    criaPixels(resolucao);
+  }
+  else if(resolucao > 50){
+    reset()
+    resolucao = 50;
+    quadro = document.createElement('div');
+    quadro.id = 'pixel-board';
+    quadro.style.width = `${resolucao * 42}px`;
+    quadro.style.height = `${resolucao * 42} px`;
+    quadro.style.margin = '50px';
+    corpo.appendChild(quadro);
+    criaPixels(resolucao);
+  }else{
+    reset()
+    quadro = document.createElement('div');
+    quadro.id = 'pixel-board';
+    quadro.style.width = `${resolucao * 42}px`;
+    quadro.style.height = `${resolucao * 42} px`;
+    quadro.style.margin = '50px';
+    corpo.appendChild(quadro);
+    criaPixels(resolucao);
+  }
+  }
 })
 
 //QUINTA QUESTÃO SEGUNDA PARTE: RECUPERANDO AS INFORMAÇÕES SALVAS APÓS RECARREGAR A PÁGINA
