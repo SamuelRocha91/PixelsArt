@@ -2,31 +2,42 @@ html {
   height: 100%;
 } 
 body {
-  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  max-height: 100%;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Entre_o_ceu_e_o_mar.jpg');
   background-size: cover;
-  color: rgb(228, 228, 222);
+  color: rgb(226, 223, 19);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #color-palette {
 display: flex;
 align-items: center;
+gap: 10px;
 justify-content: center;
+border: 1px solid white;
+background-color: rgb(230, 228, 118);
+padding: 10px;
+box-shadow: 10px 5px 5px black;
 }
 #maeDosDragoes{
-  margin-left: 35%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 7px 7px 10px black;
+  padding: 0;
+  margin: auto;
+  width: max-content;
 }
-#button-random-color {
-  border-radius: 80%;
-  color: white;
-  background-color: grey;
-  padding: 10px;
-  margin-left: 50px;
-}
+
 #board-size{
   width: 80px;
 }
-section{
-  margin-left: 40%;
-  margin-top: 50px;
+
+
+#list-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
