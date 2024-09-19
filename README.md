@@ -1,13 +1,52 @@
-<h1>Project Pixels Art</h1>
-<p>Trata-se de um projeto avaliativo desenvolvido no módulo de Fundamentos do curso de Desenvolvimento Web da Trybe. O projeto envolveu o uso de Javascript, CSS e HTML. Nele foram manipulados os arquivos 'script.js', 'index.html' e 'style.css'. Destacam-se como competências desenvolvidas: </p>
-<ol>
-  <li>Manipulação de elementos no Dom;</li>
-  <li>Web Storage;</li>
-  <li>Lógica de programação;</li>
-  <li>Uso de estruturas de repetição;</li>
-  <li>Uso de condicionais;</li>
-  <li>Uso de funções;</li>
-</ol>
-<p>A aplicação consiste numa tela de quadrados em que se é possível inserir cores conforme seleção feita através de uma paleta de geração randômica de cores. Ademais, destacam-se a capacidade de retornar à paleta com o mesmo preenchimento, mesmo após recarregar a página, devido a manipulação do local storage, e a capacidade de tranformar o número de quadrados disponíveis na tela e de limpar o seu preenchimento. </p>
+# ![Beginner Project Logo](https://img.icons8.com/emoji/48/000000/star-emoji.png) Project Pixels Art ![Beginner Project Logo](https://img.icons8.com/emoji/48/000000/star-emoji.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/SamuelRocha91/PixelsArt)
+<h2>🌐</h2>
+<ul>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt" target="_blank">Português</a></li>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_es.md" target="_blank">Español</a></li>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_en.md" target="_blank">English</a></li>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_ru.md" target="_blank">Русский</a></li>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_ch.md" target="_blank">中文</a></li>
+  <li><a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_ar.md" target="_blank">العربية</a></li>
+</ul>
+
+![Demonstração do Projeto](./gifs/paletadecores.gif)
+
+## Sobre o Projeto
+Este é um projeto avaliativo desenvolvido no módulo de **Fundamentos** do curso de **Desenvolvimento Web da Trybe**. Ele explora conceitos essenciais de **JavaScript**, **CSS** e **HTML**, com foco na manipulação do **DOM** e armazenamento de dados no **Web Storage**.
+
+O objetivo do projeto é criar uma aplicação de arte em pixels, onde o usuário pode selecionar cores de uma paleta randômica e aplicá-las a uma grade de quadrados. A aplicação também permite o armazenamento das cores selecionadas e o tamanho da grade, mesmo após a página ser recarregada.
+
+## Funcionalidades
+- Selecionar cores a partir de uma **paleta randômica**.
+- Aplicar cores a uma **grade de pixels**.
+- **Salvar** as cores e a configuração da grade no navegador (usando **Local Storage**).
+- **Redimensionar** o número de quadrados da grade.
+- **Limpar** a grade, removendo as cores aplicadas.
+
+## Competências Desenvolvidas
+Durante o desenvolvimento deste projeto, as seguintes competências foram aprimoradas:
+
+1. Manipulação de elementos no **DOM**.
+2. Uso de **Web Storage** para persistência de dados.
+3. Aplicação de **lógica de programação** em um contexto prático.
+4. Implementação de **estruturas de repetição**.
+5. Aplicação de **condicionais**.
+6. Modularização do código por meio de **funções**.
+
+## Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/PixelsArt.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd PixelsArt
+   ```
+3. Abra o arquivo `index.html` no navegador.
+
+## Outros Projetos de Iniciante
+Aqui estão alguns outros projetos que desenvolvi durante o início da minha jornada como desenvolvedor:
+
+[Projetos em atualização... fique atento!]
