@@ -49,4 +49,7 @@
 ## Другие Начальные Проекты
 Вот несколько других проектов, которые я разработал на начальном этапе своей карьеры разработчика:
 
-[Проекты в процессе... следите за обновлениями!]
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_ru.md)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_ru.md)
+- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_ru.md)
+- [Calculadora](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md)

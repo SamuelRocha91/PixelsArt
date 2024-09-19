@@ -49,5 +49,8 @@ During the development of this project, the following skills were enhanced:
 ## Other Beginner Projects
 Here are some other projects I developed during the early stages of my development journey:
 
-[Projects in progress... stay tuned!]
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_en.md)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_en.md)
+- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_en.md)
+- [Calculadora](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md)
 

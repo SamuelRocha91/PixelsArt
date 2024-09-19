@@ -49,5 +49,7 @@
 ## 其他初学者项目
 以下是我在开发初期创建的其他项目：
 
-[项目正在更新...敬请关注！]
-
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_ch.md)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_ch.md)
+- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_ch.md)
+- [Calculadora](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md)

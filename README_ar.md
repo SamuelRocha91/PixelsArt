@@ -49,4 +49,7 @@
 ## مشاريع أخرى للمبتدئين
 فيما يلي مشاريع أخرى قمت بتطويرها خلال بداياتي كمطور:
 
-[المشاريع قيد التحديث... تابعنا للمزيد!]
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_ar.md)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_ar.md)
+- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_ar.md)
+- [Calculadora](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)

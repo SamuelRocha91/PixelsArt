@@ -49,4 +49,8 @@ Durante o desenvolvimento deste projeto, as seguintes competências foram aprimo
 ## Outros Projetos de Iniciante
 Aqui estão alguns outros projetos que desenvolvi durante o início da minha jornada como desenvolvedor:
 
-[Projetos em atualização... fique atento!]
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator)
+- [Todo List](https://github.com/SamuelRocha91/TodoList)
+- [Calculadora](https://github.com/SamuelRocha91/calculator)
+
