@@ -12,6 +12,7 @@
 
 <details>
   <summary><h2>Sobre o Projeto</h2></summary>
+
   Este é um projeto avaliativo desenvolvido no módulo de **Fundamentos** do curso de **Desenvolvimento Web da Trybe**. Ele explora conceitos essenciais de **JavaScript**, **CSS** e **HTML**, com foco na manipulação do **DOM** e armazenamento de dados no **Web Storage**.
   
   O objetivo do projeto é criar uma aplicação de arte em pixels, onde o usuário pode selecionar cores de uma paleta randômica e aplicá-las a uma grade de quadrados. A aplicação também permite o armazenamento das cores selecionadas e o tamanho da grade, mesmo após a página ser recarregada.
@@ -19,6 +20,7 @@
 
 <details>
   <summary><h2>Funcionalidades</h2></summary>
+
   - Selecionar cores a partir de uma **paleta randômica**.
   - Aplicar cores a uma **grade de pixels**.
   - **Salvar** as cores e a configuração da grade no navegador (usando **Local Storage**).
@@ -28,6 +30,7 @@
 
 <details>
   <summary><h2>Competências Desenvolvidas</h2></summary>
+
   Durante o desenvolvimento deste projeto, as seguintes competências foram aprimoradas:
   
   1. Manipulação de elementos no **DOM**.
@@ -40,6 +43,7 @@
 
 <details>
   <summary><h2>Como Executar</h2></summary>
+
   1. Clone este repositório:
      ```bash
      git clone https://github.com/SamuelRocha91/PixelsArt.git
@@ -53,6 +57,7 @@
 
 <details>
   <summary><h2>Outros Projetos de Iniciante</h2></summary>
+  
   Aqui estão alguns outros projetos que desenvolvi durante o início da minha jornada como desenvolvedor:
   
   - 🖥️ [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec)
