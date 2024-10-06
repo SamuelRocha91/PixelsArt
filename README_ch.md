@@ -12,6 +12,7 @@
 
 <details>
   <summary><h2>关于项目</h2></summary>
+
   这是一个在 **Trybe** 的 **Web Development** 课程的 **基础** 模块中开发的评估项目。它探索了 **JavaScript**、**CSS** 和 **HTML** 的基本概念，重点在于 **DOM** 操作和 **Web Storage** 中的数据存储。
 
   项目的目标是创建一个像素艺术应用程序，用户可以从随机调色板中选择颜色并将其应用于方格网。该应用程序还允许存储所选颜色和网格的大小，即使在页面重新加载后也能保持。
@@ -19,6 +20,7 @@
 
 <details>
   <summary><h2>功能</h2></summary>
+
   - 从 **随机调色板** 中选择颜色。
   - 将颜色应用于 **像素网格**。
   - 在浏览器中 **保存** 颜色和网格配置（使用 **Local Storage**）。
@@ -28,6 +30,7 @@
 
 <details>
   <summary><h2>开发技能</h2></summary>
+
   在开发此项目期间，提升了以下技能：
   
   1. 操作 **DOM** 中的元素。
@@ -40,6 +43,7 @@
 
 <details>
   <summary><h2>如何运行</h2></summary>
+
   1. 克隆此仓库：
      ```bash
      git clone https://github.com/SamuelRocha91/PixelsArt.git
@@ -53,6 +57,7 @@
 
 <details>
   <summary><h2>其他初学者项目</h2></summary>
+  
   这是我在开发者初期制作的其他一些项目：
   
   - 🖥️ [二进制转换器](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_zh.md)

@@ -12,6 +12,7 @@
 
 <details>
   <summary><h2>Sobre el Proyecto</h2></summary>
+
   Este es un proyecto evaluativo desarrollado en el módulo de **Fundamentos** del curso de **Desarrollo Web de Trybe**. Explora conceptos esenciales de **JavaScript**, **CSS** y **HTML**, con un enfoque en la manipulación del **DOM** y el almacenamiento de datos en **Web Storage**.
   
   El objetivo del proyecto es crear una aplicación de arte en píxeles, donde el usuario pueda seleccionar colores de una paleta aleatoria y aplicarlos a una cuadrícula de cuadrados. La aplicación también permite almacenar los colores seleccionados y el tamaño de la cuadrícula, incluso después de que la página se recargue.
@@ -19,6 +20,7 @@
 
 <details>
   <summary><h2>Funciones</h2></summary>
+
   - Seleccionar colores de una **paleta aleatoria**.
   - Aplicar colores a una **cuadrícula de píxeles**.
   - **Guardar** los colores y la configuración de la cuadrícula en el navegador (usando **Local Storage**).
@@ -28,6 +30,7 @@
 
 <details>
   <summary><h2>Competencias Desarrolladas</h2></summary>
+
   Durante el desarrollo de este proyecto, se mejoraron las siguientes competencias:
   
   1. Manipulación de elementos en el **DOM**.
@@ -40,6 +43,7 @@
 
 <details>
   <summary><h2>Cómo Ejecutar</h2></summary>
+
   1. Clona este repositorio:
      ```bash
      git clone https://github.com/SamuelRocha91/PixelsArt.git
@@ -53,6 +57,7 @@
 
 <details>
   <summary><h2>Otros Proyectos de Principiante</h2></summary>
+  
   Aquí hay algunos otros proyectos que desarrollé durante el inicio de mi viaje como desarrollador:
   
   - 🖥️ [Conversor de binarios](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_es.md)

@@ -12,6 +12,7 @@
 
 <details>
   <summary><h2>About the Project</h2></summary>
+
   This is an evaluation project developed in the **Fundamentals** module of the **Web Development course at Trybe**. It explores essential concepts of **JavaScript**, **CSS**, and **HTML**, focusing on **DOM** manipulation and data storage in **Web Storage**.
   
   The goal of the project is to create a pixel art application, where the user can select colors from a random palette and apply them to a grid of squares. The application also allows storing the selected colors and the grid size, even after the page is reloaded.
@@ -19,6 +20,7 @@
 
 <details>
   <summary><h2>Features</h2></summary>
+
   - Select colors from a **random palette**.
   - Apply colors to a **pixel grid**.
   - **Save** the colors and grid configuration in the browser (using **Local Storage**).
@@ -28,6 +30,7 @@
 
 <details>
   <summary><h2>Skills Developed</h2></summary>
+
   During the development of this project, the following skills were enhanced:
   
   1. Manipulation of elements in the **DOM**.
@@ -40,6 +43,7 @@
 
 <details>
   <summary><h2>How to Run</h2></summary>
+
   1. Clone this repository:
      ```bash
      git clone https://github.com/SamuelRocha91/PixelsArt.git
@@ -53,6 +57,7 @@
 
 <details>
   <summary><h2>Other Beginner Projects</h2></summary>
+  
   Here are some other projects I developed during the beginning of my journey as a developer:
   
   - 🖥️ [Binary Converter](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_en.md)
